@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metas -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="keywords" content="HTML5 Template Iteck Multi-Purpose themeforest" />
+  <meta name="description" content="Iteck - Multi-Purpose HTML5 Template" />
+  <meta name="author" content="" />
+
+  <!-- Title  -->
+  <title>Oradigo || Data Engineering</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img-site/favicon.png" title="Favicon" sizes="16x16" />
+
+  <!-- ====== bootstrap icons cdn ====== -->
+  <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- bootstrap 5 -->
+  <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css">
+
+  <!-- ====== font family ====== -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/lib/all.min.css" />
+  <link rel="stylesheet" href="assets/css/lib/animate.css" />
+  <link rel="stylesheet" href="assets/css/lib/jquery-ui.min.css" />
+  <link rel="stylesheet" href="assets/css/lib/jquery.fancybox.css" />
+  <link rel="stylesheet" href="assets/css/lib/lity.css" />
+  <link rel="stylesheet" href="assets/css/lib/swiper.min.css" />
+  <!-- ====== global style ====== -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+    <!-- ====== start loading page ====== -->
+    <!-- <div id="preloader">
+    </div> -->
+    <!-- ---------- loader ---------- -->
+    <div id="preloader">
+        <div id="loading-wrapper" class="show">
+            <div id="loading-text"> <img src="assets/img-site/logoW.png" alt=""> </div>
+            <div id="loading-content"></div>
+        </div>
+    </div>
+    <!-- ====== end loading page ====== -->
+
+
+    <!-- ====== start navbar ====== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent style-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img-site/logoB.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">
+                            HOME
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            ABOUT US
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="faq.html">
+                            FAQs
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            CONTACT US
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">
+                            BLOG
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ====== end navbar ====== -->
+
+    <!-- ====== start inner-header style-5 ====== -->
+    <section class="inner-header style-5">
+      <div class="container">
+          <div class="content">
+              <div class="links">
+                  <a href="index.html"> Home </a>
+                  <a href="#"> Faq </a>
+              </div>
+              <h2> Frequently Asked Questions </h2>
+              <img src="assets/img/header/head7_rock.png" alt="" class="side-img slide_up_down">
+          </div>
+      </div>
+  </section>
+  
+    <!-- ====== end inner-header style-5 ====== -->
+
+
+    <!--Contents-->
+    <main class="faq-page style-5 section-padding">
+
+        <!-- ====== start faq-tabs style-5 ====== -->
+        <section class="faq-tabs style-5">
+          <div class="container">
+              <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                      <button class="nav-card active" id="faq1-tab" data-bs-toggle="pill" data-bs-target="#faq1" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                          <div class="icon img-contain">
+                              <img src="assets/img/icons/users.png" alt="">
+                          </div>
+                          <div class="info">
+                              <h5> Account Information </h5>
+                              <p> 08 Answers </p>
+                          </div>
+                      </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                      <button class="nav-card" id="faq2-tab" data-bs-toggle="pill" data-bs-target="#faq2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                          <div class="icon img-contain">
+                              <img src="assets/img/icons/protect.png" alt="">
+                          </div>
+                          <div class="info">
+                              <h5> Privacy Policies </h5>
+                              <p> 20 Answers </p>
+                          </div>
+                      </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                      <button class="nav-card" id="faq3-tab" data-bs-toggle="pill" data-bs-target="#faq1" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                          <div class="icon img-contain">
+                              <img src="assets/img/icons/dollar.png" alt="">
+                          </div>
+                          <div class="info">
+                              <h5> Billing & Refunds </h5>
+                              <p> 18 Answers </p>
+                          </div>
+                      </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                      <button class="nav-card" id="faq4-tab" data-bs-toggle="pill" data-bs-target="#faq2" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                          <div class="icon img-contain">
+                              <img src="assets/img/icons/24hour.png" alt="">
+                          </div>
+                          <div class="info">
+                              <h5> Support & More </h5>
+                              <p> 33 Answers </p>
+                          </div>
+                      </button>
+                  </li>
+              </ul>
+          </div>
+      </section>
+      
+        <!-- ====== end faq-tabs style-5 ====== -->
+
+
+        <!-- ====== end faq-body style-5 ====== -->
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="faq1" role="tabpanel">
+              <div class="faq-body">
+                <div class="container">
+                    <div class="row gx-5">
+                        <div class="col-lg-4">
+                            <div class="faq-category">
+                                <h5> Question Categories: </h5>
+                                <ul>
+                                    <li>
+                                        <a href="#accordion1" class="active"> Data Integration </a>
+                                        <span> 06 </span>
+                                    </li>
+                                    <li>
+                                        <a href="#accordion2"> Getting Started </a>
+                                        <span> 04 </span>
+                                    </li>
+                                    <li>
+                                        <a href="#accordion3"> Data Pipelines </a>
+                                        <span> 03 </span>
+                                    </li>
+                                    <li>
+                                        <a href="#accordion4"> Cloud Services </a>
+                                        <span> 03 </span>
+                                    </li>
+                                    <li>
+                                        <a href="#accordion5"> Data Security </a>
+                                        <span> 04 </span>
+                                    </li>
+                                    <li>
+                                        <a href="#accordion6"> Support </a>
+                                        <span> 05 </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="faq-questions">
+                                <div class="accordion pt-lg-0" id="accordion1">
+                                    <h5 class="sec-title mt-0"> <span> 01. </span> Data Integration </h5>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd1">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bd1" aria-expanded="true" aria-controls="collapseOne">
+                                                Setting Up Data Pipelines
+                                            </button>
+                                        </h2>
+                                        <div id="bd1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion1">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Learn how to establish seamless data pipelines for efficient data integration and processing. Understand the best practices and tools available.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd2">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd2" aria-expanded="false" aria-controls="collapseTwo">
+                                                Real-time Data Processing
+                                            </button>
+                                        </h2>
+                                        <div id="bd2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion1">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Explore methods for processing data in real-time to ensure your applications have the most up-to-date information available.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd3">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd3" aria-expanded="false" aria-controls="collapseThree">
+                                                Data Transformation Techniques
+                                            </button>
+                                        </h2>
+                                        <div id="bd3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion1">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Understand various data transformation techniques that can help in cleaning, structuring, and optimizing your data for analysis.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!-- ------- -->
+                                <div class="accordion" id="accordion2">
+                                    <h5 class="sec-title"> <span> 02. </span> Getting Started </h5>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd4">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd4" aria-expanded="true" aria-controls="collapseOne">
+                                                How to Start with Data Engineering
+                                            </button>
+                                        </h2>
+                                        <div id="bd4" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion2">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    A comprehensive guide on how to begin your journey into data engineering, including necessary skills and resources.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd5">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd5" aria-expanded="false" aria-controls="collapseTwo">
+                                                Key Tools and Technologies
+                                            </button>
+                                        </h2>
+                                        <div id="bd5" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion2">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    An overview of essential tools and technologies used in data engineering and how to leverage them effectively.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd6">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd6" aria-expanded="false" aria-controls="collapseThree">
+                                                Best Practices for Beginners
+                                            </button>
+                                        </h2>
+                                        <div id="bd6" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion2">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Learn the best practices for beginners in data engineering to set a strong foundation for your career.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!-- ------- -->
+                                <div class="accordion" id="accordion3">
+                                    <h5 class="sec-title"> <span> 03. </span> Data Pipelines </h5>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd7">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd7" aria-expanded="true" aria-controls="collapseOne">
+                                                Building Reliable Data Pipelines
+                                            </button>
+                                        </h2>
+                                        <div id="bd7" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion3">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Discover the principles of building reliable and scalable data pipelines to handle large volumes of data.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd8">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd8" aria-expanded="false" aria-controls="collapseTwo">
+                                                Data Pipeline Monitoring
+                                            </button>
+                                        </h2>
+                                        <div id="bd8" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion3">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Learn about monitoring techniques to ensure your data pipelines are functioning optimally and how to troubleshoot issues.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd9">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd9" aria-expanded="false" aria-controls="collapseThree">
+                                                Data Pipeline Optimization
+                                            </button>
+                                        </h2>
+                                        <div id="bd9" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion3">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Tips and strategies for optimizing data pipelines to improve performance and efficiency.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!-- ------- -->
+                                <div class="accordion" id="accordion4">
+                                    <h5 class="sec-title"> <span> 04. </span> Cloud Services </h5>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd10">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd10" aria-expanded="true" aria-controls="collapseOne">
+                                                Leveraging Cloud for Data Engineering
+                                            </button>
+                                        </h2>
+                                        <div id="bd10" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion4">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Explore how cloud services can be utilized to enhance data engineering projects, including storage and computation.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd11">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd11" aria-expanded="false" aria-controls="collapseTwo">
+                                                Migrating Data to the Cloud
+                                            </button>
+                                        </h2>
+                                        <div id="bd11" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion4">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Understand the process of migrating data to the cloud, including best practices and common challenges.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd12">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd12" aria-expanded="false" aria-controls="collapseThree">
+                                                Cost Management in Cloud Services
+                                            </button>
+                                        </h2>
+                                        <div id="bd12" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion4">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Tips for managing costs effectively when utilizing cloud services for data engineering projects.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!-- ------- -->
+                                <div class="accordion" id="accordion5">
+                                    <h5 class="sec-title"> <span> 05. </span> Data Security </h5>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd13">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd13" aria-expanded="true" aria-controls="collapseOne">
+                                                Ensuring Data Privacy
+                                            </button>
+                                        </h2>
+                                        <div id="bd13" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion5">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Learn about best practices for ensuring data privacy and protecting sensitive information in your data engineering projects.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd14">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd14" aria-expanded="false" aria-controls="collapseTwo">
+                                                Implementing Data Security Measures
+                                            </button>
+                                        </h2>
+                                        <div id="bd14" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion5">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Discover various security measures that can be implemented to protect data from unauthorized access and breaches.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd15">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd15" aria-expanded="false" aria-controls="collapseThree">
+                                                Compliance with Data Regulations
+                                            </button>
+                                        </h2>
+                                        <div id="bd15" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion5">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Ensure your data engineering practices comply with relevant data protection regulations and standards.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!-- ------- -->
+                                <div class="accordion" id="accordion6">
+                                    <h5 class="sec-title"> <span> 06. </span> Support </h5>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd16">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd16" aria-expanded="true" aria-controls="collapseOne">
+                                                Contacting Support
+                                            </button>
+                                        </h2>
+                                        <div id="bd16" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion6">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Learn how to contact support for assistance with your data engineering projects and issues.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd17">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd17" aria-expanded="false" aria-controls="collapseTwo">
+                                                Community Resources
+                                            </button>
+                                        </h2>
+                                        <div id="bd17" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion6">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Access a wealth of community resources, including forums, tutorials, and shared projects.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hd18">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd18" aria-expanded="false" aria-controls="collapseThree">
+                                                Troubleshooting Common Issues
+                                            </button>
+                                        </h2>
+                                        <div id="bd18" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion6">
+                                            <div class="accordion-body">
+                                                <div class="text">
+                                                    Find solutions and troubleshooting tips for common issues encountered in data engineering projects.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                            </div> <!-- end of faq-questions -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="tab-pane fade" id="faq2" role="tabpanel">
+              <div class="faq-body">
+                <div class="container">
+                    <div class="row gx-5">
+                        <div class="col-lg-4">
+                            <div class="faq-category">
+                                <h5> Question Category: </h5>
+                                <ul>
+                                    <li>
+                                        <a href="#accordion1" class="active"> Installation </a>
+                                        <span> 06 </span>
+                                    </li>
+                                    <li>
+                                        <a href="#accordion2"> Getting Started </a>
+                                        <span> 04 </span>
+                                    </li>
+                                    <li>
+                                        <a href="#accordion3"> Data Pipelines </a>
+                                        <span> 03 </span>
+                                    </li>
+                                    <li>
+                                        <a href="#accordion4"> Data Warehousing </a>
+                                        <span> 03 </span>
+                                    </li>
+                                    <li>
+                                        <a href="#accordion5"> Data Visualization </a>
+                                        <span> 04 </span>
+                                    </li>
+                                    <li>
+                                        <a href="#accordion6"> Support </a>
+                                        <span> 05 </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="faq-questions">
+                                <div class="accordion pt-lg-0" id="accordion1">
+                                    <h5 class="sec-title mt-0"> <span> 01. </span> Installation </h5>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd1">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bd1" aria-expanded="true" aria-controls="collapseOne">
+                                            How to install our data engineering toolkit
+                                        </button>
+                                      </h2>
+                                      <div id="bd1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion1">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                Follow the steps in our installation guide to set up our data engineering toolkit, which includes the necessary dependencies and configuration settings.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd2">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd2" aria-expanded="false" aria-controls="collapseTwo">
+                                            Setting up your development environment
+                                        </button>
+                                      </h2>
+                                      <div id="bd2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion1">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                Learn how to configure your development environment for data engineering tasks, including IDE setup and necessary plugins.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd3">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd3" aria-expanded="false" aria-controls="collapseThree">
+                                            Installing required libraries and frameworks
+                                        </button>
+                                      </h2>
+                                      <div id="bd3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion1">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                A detailed guide on installing the essential libraries and frameworks needed for efficient data engineering.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+            
+                                  <!-- ------- -->
+                                <div class="accordion" id="accordion2">
+                                    <h5 class="sec-title"> <span> 02. </span> Getting Started </h5>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd4">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd4" aria-expanded="true" aria-controls="collapseOne">
+                                            Introduction to data engineering
+                                        </button>
+                                      </h2>
+                                      <div id="bd4" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion2">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                An overview of data engineering principles and practices to help you get started with your first project.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd5">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd5" aria-expanded="false" aria-controls="collapseTwo">
+                                            Data collection best practices
+                                        </button>
+                                      </h2>
+                                      <div id="bd5" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion2">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                Tips and techniques for collecting high-quality data from various sources to ensure accuracy and reliability.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd6">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd6" aria-expanded="false" aria-controls="collapseThree">
+                                            Understanding ETL processes
+                                        </button>
+                                      </h2>
+                                      <div id="bd6" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion2">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                Learn about ETL (Extract, Transform, Load) processes and how to implement them in your data workflows.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+            
+                                  <!-- ------- -->
+                                <div class="accordion" id="accordion3">
+                                    <h5 class="sec-title"> <span> 03. </span> Data Pipelines </h5>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd7">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd7" aria-expanded="true" aria-controls="collapseOne">
+                                            Building robust data pipelines
+                                        </button>
+                                      </h2>
+                                      <div id="bd7" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion3">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                A step-by-step guide to constructing scalable and maintainable data pipelines for efficient data flow.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd8">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd8" aria-expanded="false" aria-controls="collapseTwo">
+                                            Monitoring and alerting in data pipelines
+                                        </button>
+                                      </h2>
+                                      <div id="bd8" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion3">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                Techniques for implementing monitoring and alerting systems to ensure the health of your data pipelines.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd9">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd9" aria-expanded="false" aria-controls="collapseThree">
+                                            Handling data pipeline failures
+                                        </button>
+                                      </h2>
+                                      <div id="bd9" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion3">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                Strategies for identifying, troubleshooting, and resolving issues in data pipelines to minimize downtime.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+            
+                                  <!-- ------- -->
+                                <div class="accordion" id="accordion4">
+                                    <h5 class="sec-title"> <span> 04. </span> Data Warehousing </h5>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd7">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd7" aria-expanded="true" aria-controls="collapseOne">
+                                            Designing efficient data warehouses
+                                        </button>
+                                      </h2>
+                                      <div id="bd7" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion4">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                Best practices for designing data warehouses that ensure fast query performance and easy data retrieval.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd8">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd8" aria-expanded="false" aria-controls="collapseTwo">
+                                            Data partitioning strategies
+                                        </button>
+                                      </h2>
+                                      <div id="bd8" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion4">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                Learn about various data partitioning techniques to optimize storage and improve query efficiency.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd9">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd9" aria-expanded="false" aria-controls="collapseThree">
+                                            Implementing data warehousing solutions
+                                        </button>
+                                      </h2>
+                                      <div id="bd9" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion4">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                Steps for deploying and managing data warehousing solutions that meet your organization's needs.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+            
+                                  <!-- ------- -->
+                                <div class="accordion" id="accordion5">
+                                    <h5 class="sec-title"> <span> 05. </span> Data Visualization </h5>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd10">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd10" aria-expanded="true" aria-controls="collapseOne">
+                                            Creating impactful data visualizations
+                                        </button>
+                                      </h2>
+                                      <div id="bd10" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion5">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                Tips and tools for designing visualizations that effectively communicate insights from your data.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd11">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd11" aria-expanded="false" aria-controls="collapseTwo">
+                                            Integrating data visualization tools
+                                        </button>
+                                      </h2>
+                                      <div id="bd11" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion5">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                How to integrate popular data visualization tools into your data engineering workflows.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd12">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd12" aria-expanded="false" aria-controls="collapseThree">
+                                            Customizing dashboards and reports
+                                        </button>
+                                      </h2>
+                                      <div id="bd12" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion5">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                Learn how to create customized dashboards and reports to meet specific business needs and preferences.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+            
+                                  <!-- ------- -->
+                                <div class="accordion" id="accordion6">
+                                    <h5 class="sec-title"> <span> 06. </span> Support </h5>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd13">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd13" aria-expanded="true" aria-controls="collapseOne">
+                                            Troubleshooting common issues
+                                        </button>
+                                      </h2>
+                                      <div id="bd13" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion6">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                Solutions to common problems encountered during data engineering projects, including error messages and performance issues.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd14">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd14" aria-expanded="false" aria-controls="collapseTwo">
+                                            Contacting support
+                                        </button>
+                                      </h2>
+                                      <div id="bd14" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion6">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                Information on how to reach our support team for help with technical issues and other queries.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="hd15">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd15" aria-expanded="false" aria-controls="collapseThree">
+                                            FAQs
+                                        </button>
+                                      </h2>
+                                      <div id="bd15" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion6">
+                                        <div class="accordion-body">
+                                            <div class="text">
+                                                A compilation of frequently asked questions and their answers to help you quickly find solutions to common problems.
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+        <!-- ====== end faq-body style-5 ====== -->
+        
+    </main>
+    <!--End-Contents-->
+
+    <!-- ====== start footer ====== -->
+    <footer class="style-5 border-top brd-gray">
+      <div class="container">
+          <div class="row gx-0 justify-content-between">
+              <div class="col-lg-3 col-sm-6">
+                  <div class="items">
+                      <div class="title">
+                        Oradigo - Innovative Data Solutions
+                      </div>
+                      <small class="text">
+                          Pioneering in data engineering services, we develop robust data pipelines and analytics solutions. 
+                          For your unique business needs, we provide customized data solutions.
+                      </small>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                  <div class="items">
+                      <div class="title">
+                          Contact Us
+                      </div>
+                      <small class="text mb-10 d-block">
+                          123 Mayland Street, Tech City, <br> Silicon Valley, CA 94043, US
+                      </small>
+                      <small class="text mb-10 d-block">
+                        +907 200 999 72
+                      </small>
+                      <small class="text d-block">
+                        support@oradigo.site
+                      </small>
+                  </div>
+              </div>
+              <div class="col-lg-2">
+                  <div class="items">
+                      <div class="title">
+                          Quick Links
+                      </div>
+                      <ul>
+                          <li>
+                              <a href="index.html"> Home </a>
+                          </li>
+                          <li>
+                              <a href="about.html"> About Us </a>
+                          </li>
+                          <li>
+                              <a href="faq.html"> FAQ </a>
+                          </li>
+                          <li>
+                              <a href="#"> Products </a>
+                          </li>
+                          <li>
+                              <a href="blog.html"> Blog </a>
+                          </li>
+                          <li>
+                              <a href="contact.html"> Contact </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-2">
+                  <div class="items">
+                      <div class="title">
+                          Resources
+                      </div>
+                      <ul>
+                          <li>
+                              <a href="#"> Documentation </a>
+                          </li>
+                          <li>
+                              <a href="#"> API Reference </a>
+                          </li>
+                          <li>
+                              <a href="#"> Integrations </a>
+                          </li>
+                          <li>
+                              <a href="#"> FAQs </a>
+                          </li>
+                          <li>
+                              <a href="#"> Support Center </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="foot">
+              <div class="row">
+                  <div class="col-lg-3 col-sm-6">
+                      <div class="logo">
+                          <img src="assets/img-site/logoB.png" alt="">
+                      </div>
+                  </div>
+                  <div class="col-lg-6">
+                      <small class="small">
+                          © 2024 Copyrights by <a href="#" class="fw-bold text-decoration-underline">Oradigo.site</a> All 
+                          Rights Reserved. Designed by <a href="#" 
+                          class="fw-bold text-decoration-underline">Oradigo</a>
+                      </small>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  
+    <!-- ====== end footer ====== -->
+
+    <!-- ====== start to top button ====== -->
+    <a href="#" class="to_top bg-gray rounded-circle icon-40 d-inline-flex align-items-center justify-content-center">
+        <i class="bi bi-chevron-up fs-6 text-dark"></i>
+    </a>
+    <!-- ====== end to top button ====== -->
+
+    <!-- ====== request ====== -->
+    <script src="assets/js/lib/jquery-3.0.0.min.js"></script>
+    <script src="assets/js/lib/jquery-migrate-3.0.0.min.js"></script>
+    <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/lib/wow.min.js"></script>
+    <script src="assets/js/lib/jquery.fancybox.js"></script>
+    <script src="assets/js/lib/lity.js"></script>
+    <script src="assets/js/lib/swiper.min.js"></script>
+    <script src="assets/js/lib/jquery.waypoints.min.js"></script>
+    <script src="assets/js/lib/jquery.counterup.js"></script>
+    <!-- <script src="assets/js/lib/pace.js"></script> -->
+    <script src="assets/js/lib/scrollIt.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+
+<!-- Mirrored from iteck-html.themescamp.com/page-faq-5.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Apr 2024 02:09:25 GMT -->
+</html>
